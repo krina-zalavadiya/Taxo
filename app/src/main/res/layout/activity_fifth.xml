@@ -8,7 +8,7 @@
     android:layout_gravity="center"
     android:orientation="vertical"
     tools:context=".Fifth">
-a
+
 
     <LinearLayout
         android:layout_gravity="center"
@@ -17,13 +17,12 @@ a
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical">
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="100dp"
                 android:src="@drawable/car3" />
 
             <LinearLayout
@@ -48,6 +47,8 @@ a
 
     </LinearLayout>
 
+
+
     <LinearLayout
         android:gravity="bottom"
         android:layout_width="match_parent"
@@ -57,7 +58,7 @@ a
 
         <TextView
             android:layout_width="match_parent"
-             android:text="Phone Number"
+            android:text="Phone Number"
             android:layout_margin="@dimen/_5sdp"
             android:textColor="@color/white"
             android:layout_height="wrap_content"/>
@@ -198,5 +199,5 @@ a
         </LinearLayout>
 
     </LinearLayout>
-
+    </LinearLayout>
 </LinearLayout>
