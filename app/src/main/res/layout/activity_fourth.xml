@@ -46,20 +46,23 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
             android:layout_marginEnd="5dp"
-            android:layout_marginBottom="125dp"
+            android:layout_marginBottom="@dimen/_113sdp"
             android:scaleType="centerCrop"
             android:src="@drawable/back1" />
 
+
         <ImageView
-            android:layout_marginBottom="120dp"
-            android:layout_marginEnd="5dp"
-            android:layout_marginStart="250dp"
-            android:layout_alignParentBottom="true"
             android:layout_width="wrap_content"
             android:layout_height="100dp"
-            android:src="@drawable/threes"/>
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="@dimen/_230sdp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="@dimen/_110sdp"
+            android:src="@drawable/threes" />
+
 
         <LinearLayout
+            android:layout_marginTop="@dimen/_370sdp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
@@ -68,7 +71,6 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="450dp"
                 android:text="Quick"
                 android:textColor="#FDD835"
                 android:textSize="30dp" />
@@ -88,7 +90,10 @@
                 android:textColor="#545B63"
                 android:textSize="15dp" />
 
+
         </LinearLayout>
+
+
     </RelativeLayout>
 
 </LinearLayout>
